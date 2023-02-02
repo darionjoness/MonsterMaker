@@ -1,0 +1,110 @@
+body {
+    background: darksalmon;
+}
+wrapper {
+    width: 500px;
+    height: 500px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.monster {
+    height: 300px;
+    width: 300px;
+    background: cornflowerblue;
+    border-radius: 50%;
+    margin: 75px auto;
+    box-shadow: inset -30px -30px rgba(0,0,0,.06);
+}
+
+.eyebrow1 {
+    width: 70px;
+    height: 10px;
+    background-color: black;
+    margin-left: 60px;
+    float: left;
+    position: relative;
+    top: 50px;
+    transform: rotate(25deg);
+}
+      
+.eyebrow2 {
+    width: 70px;
+    height: 10px;
+    background-color: black;
+    margin-left: 35px;
+    float: left;
+    position: relative;
+    top: 50px;
+    transform: rotate(-25deg);
+}
+
+.eye {
+    float: left;
+    height: 40px;
+    width: 20px;
+    background: black;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 84px;
+}
+    
+.mouth {
+    height: 100px;
+    width: 180px;
+    background: black;
+    position: relative;
+    top: 150px;
+    left: 60px;
+    border-radius: 20px 20px 50% 50%;
+}
+        
+.tooth1{
+    position: absolute;
+    left: 15px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid   transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid white;
+    float: left;
+    margin-left: 20px;
+}
+        
+.tooth2 {
+    position: absolute;
+    left: 80px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid   transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid white;
+    float: left;
+    margin-left: 20px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.buttons button{
+    border: 2px solid cornflowerblue;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.1s ease-in;
+}
+
+.buttons button:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+}
+      
+    
+
+
